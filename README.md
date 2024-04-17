@@ -7,8 +7,8 @@ The web scraper is a single GET API which calls a server that extracts JSON data
 - [Installation](#installation)
 - [Endpoint](#endpoint)
 - [Usage](#usage)
-- [Response formats](#response formats)
-- [Unit test](#unit test)
+- [Response-formats](#response-formats)
+- [Unit-test](#unit-test)
 
 ## Installation
 1. Clone the repository:
