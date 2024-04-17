@@ -13,11 +13,11 @@ The web scraper is a single GET API which calls a server that extracts JSON data
 ## Installation
 1. Clone the repository:
     ```
-    git clone https://github.com/mamihackl/webscraper.git
+    git clone https://github.com/mamihackl/WebScraper.git
     ```
 2. Navigate to the project directory:
     ```
-    cd webscraper 
+    cd WebScraper 
     ```
 3. Install dependencies:
     ```
@@ -25,7 +25,7 @@ The web scraper is a single GET API which calls a server that extracts JSON data
     ```
 
 ## Endpoint
-This endpoint facilitates two operations: retrieving data from a single URL and extracting target data from a list of URLs, both accomplished through a GET request.
+This endpoint facilitates two operations: retrieving data from a single URL and extracting target data in JSON format from a list of URLs, both accomplished through a GET request.
 ```
 http://127.0.0.1:5000/product-details
 ```
@@ -45,7 +45,7 @@ python webscraper.py
 curl -X GET -H "Content-Type: application/json" -d '["https://example1", "https://example2"]' http://127.0.0.1:5000/product-details
 ```
 
-Alternatively, you can also use Postman. How to test using Postman, please see https://www.postman.com/api-platform/api-testing/
+Alternatively, you can also use Postman. How to test using Postman, please refer to https://www.postman.com/api-platform/api-testing/
 
 
 ## Response formats
